@@ -1,7 +1,7 @@
 <!--
     1. Sverre forsov seg til skolen. politiet ettterforsker saken
     2. Denne artisten går under navnet "Tjommi"
-    3. Daniel Brunstad Iversen blir første nordmann på månen
+    3. Daniel og apen gjenforent
     4. Ung sjåfør mistet lappen (Elton)
     5. Hurlen kastet ut av mensa
 -->
@@ -11,29 +11,48 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Data avisen</title>
+    <title>Data avisen - Hjem</title>
     <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
     <header>
-        <h1 class="title">Data avisen</h1>
+        <a href="index.html"><img src="logo.png" alt="nettsidens logo" height="200" width="400"></a>
     </header>
 
     <nav>
-        <a href="hjem">Hjem</a> |
-        <a href="om oss">Om oss</a> |
-        <a href="kontakt oss">Kontakt oss</a>
+        <ul class="navbar">
+            <li class="nav"><a class="active" href="index.html">Hjem</a></li>
+            <li class="nav"><a href="om oss.html">Om oss</a></li>
+            <li class="nav"><a href="kontakt oss.html">Kontakt oss</a></li>
+        </ul>
     </nav>
 
     <section>
-        <article class="sverre">
-            <img src="sverreSover.jpg" alt="Sverre sover" height="353" width="640">
-        </article>
+        <div class="twoFirstPosts">
+            <div class="first">
+                <article class="sverre">
+                    <a href="sverreSover.html">
+                        <img src="sverreSover.jpg" alt="Sverre sover" height="250" width="450">
+                    </a>
+                    <a href="sverreSover.html">
+                        <p style="font-size:20px">SVERRE FORSOV SEG TIL SKOLEN. POLITIET <br> ETTERFORSKER SAKEN</p>
+                    </a>
+                </article>
+            </div>
+            <div class="first">
+                <article class="tjommi">
+                    <a href="artistTjommi">
+                        <img src="artistTjommi.jpg" alt="artist tjommi" height="250" width="450">
+                    </a>
+                    <a href="artistTjommi">
+                        <p style="font-size:20px">HURLEN KASTET UT FRA MENSA</p>
+                    </a>
+                </article>
+            </div>
 
-        <article class="tjommi">
+        </div>
 
-        </article>
 
         <article class="daniel">
 
@@ -50,7 +69,7 @@
 
     <footer>
         <p><small>Laget av Yusuf Harmankaya. Innholdet er beskyttet i
-                hht til norsk lov om opphavsrett, Åndsverkloven</small></p>
+                hht til norsk lov om opphavsrett, Åndsverkloven.</small></p>
     </footer>
 </body>
 
