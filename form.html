@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="utf-8">
+    <title>Data avisen - bildene</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="logo.png" alt="nettsidens logo" height="200" width="400"></a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html">Nettsiden</a></li>
+            <li><a href="bildene.html">Bildene</a></li>
+            <li><a href="form.html">Skjema</a></li>
+        </ul>
+    </nav>
+
+    <form name="form" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <fieldset>
+            <legend>Type in your information</legend>
+            First name: <input type="text" name="FirstName"> <br>
+
+            Last name: <input type="text" name="LastName"> <br>
+
+            Gender: <select type="text" value="" name="Gender">
+                <option></option>
+                <option>Male</option>
+                <option>Female</option>
+            </select> <br>
+
+            E-mail: <input type="email" name="EMail"> <br>
+
+            Phone number: <input type="tel" name="PhoneNumber" pattern="[0-9]{8}"> <br>
+
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+
+    <footer>
+        <p><small>Laget av Yusuf Harmankaya. Innholdet er beskyttet i
+                hht til norsk lov om opphavsrett, Åndsverkloven.</small></p>
+    </footer>
+</body>
+</html>
